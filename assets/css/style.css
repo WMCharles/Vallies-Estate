@@ -22,3 +22,25 @@ header ul li a {
     float: left;
     font-family: 'Oleo Script';
 }
+
+.intro {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.featured-properties {
+    width:450px;
+}
+.cardx {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    margin: 10px;
+}
+
+.view-more {
+    float: right;
+}
