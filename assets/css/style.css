@@ -37,10 +37,25 @@ header ul li a {
     flex-direction: row;
 }
 
-.card {
-    margin: 10px;
+.featured-properties-card {
+    display: flex;
+}
+
+.card img {
+    /* max-width: 100%; */
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .view-more {
     float: right;
+}
+
+.testimonies {
+    display: flex;
+    flex-direction: row;
+}
+
+.esteemed-customers h1 {
+    text-align: center;
 }
