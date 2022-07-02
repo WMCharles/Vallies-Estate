@@ -101,11 +101,21 @@ header ul li a {
     float: right;
 }
 
+.esteemed-customers {
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
 .testimonies {
     display: flex;
-    flex-direction: row;
+    flex-direction: row;  
 }
 
 .esteemed-customers h1 {
     text-align: center;
+}
+
+.view-more2 {
+    float: right;
 }
