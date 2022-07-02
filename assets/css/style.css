@@ -43,6 +43,21 @@ header ul li a {
     width: 100%;
 }
 
+.location {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: center;
+}
+
+.location > div {
+    flex: 25%;
+    padding: 20px;
+}
+
+#search {
+    float: right;
+}
 .featured-properties {
     width:450px;
 }
