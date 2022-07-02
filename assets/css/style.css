@@ -24,9 +24,23 @@ header ul li a {
 }
 
 .intro {
+    margin-top: 20px;
     display: flex;
-    align-items: center;
     flex-direction: row;
+}
+
+.intro > div {
+    padding: 10px;
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.intro-left, .intro-right {
+    flex: 50%;
+}
+
+.intro-right > img {
+    width: 100%;
 }
 
 .featured-properties {
