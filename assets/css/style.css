@@ -14,30 +14,43 @@ h1 {
 h3 {
     font-family: 'Space Grotesk';
 }
-header {
-    margin: 30px;
-}
 
-header ul {
-    list-style-type: none;
-    font-size: 30px;
+.nav {
+    overflow: hidden;
+    background-color: #FAFAFA;
+    margin: 30px 20px 20px 20px;
     text-align: center;
 }
 
-header ul li {
+.nav a {
+    text-decoration: none;
     display: inline;
-    
+    color: black;
+    padding: 10px;
+    font-size: 24px;
 }
 
-header ul li a {
-    text-decoration: none;
-    padding: 10px;
-    color: black;
+.nav a:hover {
+    font-size: 30px;
 }
+
+.nav a.active {
+    color: #2549D3;
+    font-weight: 700;
+}
+
+.nav .icon {
+    display: none;
+  }
 
 .brand {
     float: left;
     font-family: 'Oleo Script';
+    font-size: 30px;
+}
+
+.button4 {
+    float: right;
 }
 
 .button , .learn-more, .search, .view-more, .view-more2 {
@@ -153,6 +166,9 @@ header ul li a {
     margin: 100px 10px 10px 10px;
 }
 
+.product-card .card {
+    flex: 33;
+}
 .imgx {
     display: flex;
     justify-content: center;
@@ -276,4 +292,26 @@ header ul li a {
     .intro, .location, .product-card, .why-us, .featured-img, .testimonies, .footer{
       flex-direction: column;
     }
-  }
+
+    .nav a:not(:first-child) {display: none;}
+    .nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav.responsive {position: relative;}
+
+    .nav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
