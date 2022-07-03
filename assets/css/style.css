@@ -144,21 +144,44 @@ header ul li a {
     text-align: center;
 }
 
-.featured-properties-card {
+.featured-img {
     display: flex;
-    flex-direction: row;
-    padding: 10px;
 }
 
-.featured-properties-card .card {
-    flex: 32%;
+.card-featured {
     transition: 0.3s;
-    margin-right: 20px;
-    padding: 10px;
+    margin: 10px 10px 30px 10px;
+    border-radius: 30px;
 }
 
-.featured-properties-card .card img {
-    width: 32;
+.cf-1 {
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card-featured img {
+    width: 100%;
+}
+.card-featured:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+.description {
+    text-align: center;
+    padding: 2px;
+    display: flex;
+}
+
+.description > div {
+    padding: 2px 16px;
+    flex: 50%;
+}
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
 }
 
 .view-more1 {
