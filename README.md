@@ -1,4 +1,5 @@
 # Vallie's Estate
+![image](https://github.com/WMCharles/Vallies-Estate/blob/main/intro.png)
 
 ## Description
 The main aim of this project was employing HTML and CSS skills that I have learnt so far. The purpose was reproducing the landing page of Vallie's Estate website. The project includes a custom-made stylesheet that uses typography styles, cascading, the box model, and floats.
@@ -8,10 +9,10 @@ Here is a working live demo :  https://wmcharles.github.io/Vallies-Estate/index.
 
 ## Site
 
-### Intro Section
 ### Products Section
-### Why-choose-us Section
+![image](https://github.com/WMCharles/Vallies-Estate/blob/main/products.png)
 ### Testimonials and footer section
+![image](https://github.com/WMCharles/Vallies-Estate/blob/main/footer.png)
 
 ## Program Setup Instructions
 
@@ -29,4 +30,4 @@ git clone https://github.com/WMharles/Vallies-Estate.git
 
 ## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
 
-MIT © [Harsh Vijay ](https://github.com/iharsh234)
+MIT © [Charles Wafula ](https://github.com/WMCharles)
