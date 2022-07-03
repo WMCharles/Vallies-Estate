@@ -253,7 +253,6 @@ header ul li a {
 
 .footer {
     display: flex;
-    align-items: center;
     flex-direction: row;
     padding: 20px;
     font-size: 20px;
@@ -264,7 +263,7 @@ header ul li a {
 }
 
 .footer > div {
-    margin: 100px;
+    margin: auto;
     flex: 25%;
 }
 
@@ -272,3 +271,9 @@ header ul li a {
     font-family: 'Oleo Script';
     font-size: 30px;
 }
+
+@media (max-width: 540px) {
+    .intro, .location, .product-card, .why-us, .featured-img, .testimonies, .footer{
+      flex-direction: column;
+    }
+  }
