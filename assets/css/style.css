@@ -255,7 +255,7 @@ h3 {
 .testimonies {
     display: flex;
     flex-direction: row;  
-    margin-right: 20px;
+    margin: 30px;
     padding: 10px;
 }
 
