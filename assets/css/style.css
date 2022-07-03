@@ -1,14 +1,20 @@
 body {
     font-family: 'Space Grotesk';
     font-size: 20px;
+    width: 90%;
+    margin: auto;
 }
 
 h1 {
     color: #2549D3;
+    font-family: 'Space Grotesk';
+    font-weight: 700;
 }
+
 header {
     margin: 30px;
 }
+
 header ul {
     list-style-type: none;
     font-size: 30px;
@@ -66,10 +72,25 @@ header ul li a {
 }
 
 .location {
+    margin: 100px 40px 40px 40px;
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.arrow {
+    border: solid #2549D3;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
 
 .location > div {
@@ -77,9 +98,6 @@ header ul li a {
     padding: 20px;
 }
 
-#search {
-    float: right;
-}
 
 .why-us {
     display: flex;
