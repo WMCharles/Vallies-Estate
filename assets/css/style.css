@@ -29,6 +29,17 @@ header ul li a {
     font-family: 'Oleo Script';
 }
 
+.button , .learn-more, .search, .view-more, .view-more2 {
+    background-color: #0F298B;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    color: #FAFAFA;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+}
+
+
 .intro {
     margin-top: 20px;
     display: flex;
@@ -135,6 +146,10 @@ header ul li a {
 
 .featured-properties-card .card {
     margin-right: 20px;
+}
+
+.view-more1 {
+    background-color: #2549D3;
 }
 
 .esteemed-customers {
