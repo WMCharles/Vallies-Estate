@@ -4,6 +4,10 @@ body {
     /* margin: 0;
     padding: 0; */
 }
+
+h1 {
+    color: #2549D3;
+}
 header {
     margin: 30px;
 }
@@ -30,7 +34,7 @@ header ul li a {
 }
 
 .button , .learn-more, .search, .view-more, .view-more2 {
-    background-color: #0F298B;
+    background-color: #2549D3;
     border: none;
     border-radius: 10px;
     padding: 15px 32px;
