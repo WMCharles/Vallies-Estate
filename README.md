@@ -25,9 +25,9 @@ git clone https://github.com/WMharles/Vallies-Estate.git
 
 * **[Charles Wafula](https://https://github.com/WMCharles)** 
 
-[![github follow](https://img.shields.io/github/followers/WMKCharles?label=Follow_on_GitHub)](https://github.com/WMKCharles)
-[![twitter follow](https://img.shields.io/twitter/follow/WMKCharles?style=social)](https://twitter.com/WMKCharles)
+[![github follow](https://img.shields.io/github/followers/WMCharles?label=Follow_on_GitHub)](https://github.com/WMKCharles)
+[![twitter follow](https://img.shields.io/twitter/follow/WMCharles?style=social)](https://twitter.com/WMKCharles)
 
-## [License](https://github.com/iharsh234/WebApp/blob/master/LICENSE.md)
+# [License](https://github.com/WMCharles/Vallies-Estate/blob/master/LICENSE.md)
 
 MIT © [Charles Wafula ](https://github.com/WMCharles)
