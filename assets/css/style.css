@@ -52,7 +52,7 @@ header ul li a {
 }
 
 .intro {
-    margin-top: 20px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
 }
@@ -95,7 +95,7 @@ header ul li a {
 
 .location > div {
     flex: 25%;
-    padding: 20px;
+    padding: 15px;
 }
 
 
@@ -103,7 +103,7 @@ header ul li a {
     display: flex;
     padding: 20px;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 100px;
     font-size: 20px;
 }
 
@@ -120,53 +120,41 @@ header ul li a {
 }
 
 .products {
-    padding: 20px;
-    margin: 10px;
+    margin: 100px 10px 10px 10px;
+}
+
+.product-card .card img {
+    text-align: center;
+}
+
+#how, #p1 {
+    text-align: center;
 }
 
 #p1 {
-    text-align: center;
     font-size: 24px;
 }
 
-#how {
+.description-1 {
     text-align: center;
-}
-.cards {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-
-.cards .card {
-    transition: 0.3s;
-    margin-right: 20px;
-    padding: 10px;
-    text-align: center;
-}
-
-.cards .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-
-#center-card {
-    box-shadow: 0 10px 8px 0 rgba(0,0,0,0.2);
+    padding: 2px;
 }
 
 .featured-properties {
     padding: 20px;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 #our, #one {
     text-align: center;
 }
 
-.featured-img {
+.featured-img, .product-card {
     display: flex;
 }
 
-.card-featured {
+.card-featured, .card {
+    padding: 10px;
     transition: 0.3s;
     margin: 10px 10px 30px 10px;
     border-radius: 30px;
@@ -179,7 +167,7 @@ header ul li a {
 .card-featured img {
     width: 100%;
 }
-.card-featured:hover {
+.card-featured:hover, .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
 
@@ -208,7 +196,7 @@ header ul li a {
 
 .esteemed-customers {
     padding: 20px;
-    margin-top: 50px;
+    margin-top: 100px;
     font-size: 18px;
 }
 
@@ -236,9 +224,10 @@ header ul li a {
     margin: 10px;
     background-color: #0F298B;
     color: #FAFAFA;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .footer > div {
+    margin: 100px;
     flex: 25%;
 }
