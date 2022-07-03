@@ -39,6 +39,9 @@ header ul li a {
     font-size: 18px;
 }
 
+.view-more {
+    float: right;
+}
 
 .intro {
     margin-top: 20px;
