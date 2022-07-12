@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+
+:root {
+    --sky-blue: #2549D3;
+    --blue: #0F298B;
+    --white: #FAFAFA;
+}
+
 body {
     font-family: 'Space Grotesk';
     font-size: 20px;
@@ -15,43 +24,116 @@ h3 {
     font-family: 'Space Grotesk';
 }
 
-.nav {
-    overflow: hidden;
-    background-color: #FAFAFA;
-    margin: 30px 20px 20px 20px;
-    text-align: center;
-}
-
-.nav a {
-    text-decoration: none;
-    display: inline;
+a {
     color: black;
-    padding: 10px;
-    font-size: 24px;
+    text-decoration: none;
 }
 
-.nav a:hover {
+ul {
+    list-style: none;
+}
+
+header {
+    background-color: #FAFAFA;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 10px;
     font-size: 30px;
-}
-
-.nav a.active {
-    color: #2549D3;
-    font-weight: 700;
-}
-
-.nav .icon {
-    display: none;
-  }
-
-.brand {
-    float: left;
     font-family: 'Oleo Script';
-    font-size: 30px;
+    color: #0F298B;
 }
 
-.button4 {
-    float: right;
+nav {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--blue);
+    position: fixed;
+    overflow: hidden;
 }
+
+.menu a {
+    color: white;
+    display: block;
+    padding: 30px;
+}
+
+.menu a:hover {
+    background-color: #FAFAFA;
+    color: var(--blue);
+}
+
+#get-started {
+    display: none;
+}
+
+.nav {
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+.hamb1 {
+    cursor: pointer;
+    float: right;
+    padding: 25px 20px;
+}
+
+.hamb-line1 {
+    background-color: var(--blue);
+    height: 2px;
+    width: 24px;
+    display: block;
+    position: relative;
+}
+
+.hamb-line1::before, 
+.hamb-line1::after {
+    background-color: #0F298B;
+    height: 100%;
+    width: 100%;
+    content: '';
+    display: block;
+    position: absolute;
+    transition: all .2s ease-out;
+}
+
+.hamb-line1::before {
+    top: 7px;
+}
+
+.hamb-line1::after {
+    top: -7px;
+}
+
+.side-menu1 {
+    display: none;
+}
+
+.side-menu1:checked ~ nav {
+    max-height: 100%;
+}
+
+.side-menu1:checked ~ .hamb1 .hamb-line1 {
+    background-color: transparent;
+}
+
+.side-menu1:checked ~ .hamb1 .hamb-line1::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side-menu1:checked ~ .hamb1 .hamb-line1::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+/* end of navbar */
 
 .button , .learn-more, .search, .view-more, .view-more2 {
     background-color: #2549D3;
@@ -314,4 +396,67 @@ h3 {
         display: block;
         text-align: left;
     }
+}
+
+@media only screen and (min-width:960px) {
+    header {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        padding: 2px 0;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .nav{
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: #FAFAFA;
+        margin-top: 0;
+    }
+    
+    .menu {
+        display: flex;
+        text-align: center;
+        padding: 18px;
+    }
+    
+    .get-started {
+        display: none;
+    }
+
+    #get-started {
+        display: inline;
+    }
+    
+    .menu a{
+        padding: 30px;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .menu a:hover {
+        color: var(--blue);
+    }
+    
+    #get-started {
+        background-color: #0F298B;
+        border-radius: 6px;
+        color: #FAFAFA;
+        padding: 18px;
+    }
+    
+    .logo {
+        font-family: 'Oleo Script';
+        font-size: 35px;
+        color: var(--blue);
+    }
+
+    .side-menu1, .hamb1 {
+        display: none;
+    }
+
 }
